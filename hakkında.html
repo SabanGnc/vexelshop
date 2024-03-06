@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vexel Shop - En Uygun Alışveriş</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - preload banner
+  -->
+    <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="#" class="logo">
+                <img src="./assets/images/Sol Üst Logo.png" width="160" height="50" alt="Footcap logo">
+            </a>
+
+            <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/footer logo.png" width="190" height="50" alt="Footcap logo">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link">Anasayfa</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Hakkında</a>
+                    </li>
+
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">İletişim</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Ürünler</a>
+                        <ul class="sub-menu">
+                            <li><a href="Pages/test.html" class="product-link">Sosyal Medya</a></li>
+
+
+                            <li class="sub-menu-item">
+                                <a style="margin-left: 20px;" href="#" class="sub-menu-link">Sosyal Medya 1</a>
+                                <ul class="sub-menu-2">
+                                    <li><a href="#" class="product-link">İnstagram Hizmetleri</a></li>
+                                    <li><a href="#" class="product-link">TikTok Hizmetleri</a></li>
+                                    <li><a href="#" class="product-link">YouTube Hizmetleri</a></li>
+                                </ul>
+                            </li>
+
+
+
+                            <li class="sub-menu-item">
+                                <a style="margin-left: 20px;" href="#" class="sub-menu-link">Sosyal Medya 2</a>
+                                <ul class="sub-menu-2">
+                                    <li><a href="#" class="product-link">Ürün 1.4</a></li>
+                                    <li><a href="#" class="product-link">Ürün 1.5</a></li>
+                                    <li><a href="#" class="product-link">Ürün 1.6</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="sub-menu-item">
+                                <a style="margin-left: 20px;" href="#" class="sub-menu-link">Sosyal Medya 3</a>
+                                <ul class="sub-menu-2">
+                                    <li><a href="#" class="product-link">Ürün 1.7</a></li>
+                                    <li><a href="#" class="product-link">Ürün 1.8</a></li>
+                                    <li><a href="#" class="product-link">Ürün 1.9</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="nav-action-list">
+
+                    <li>
+                        <button class="nav-action-btn">
+                            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+                            <span class="nav-action-text">Search</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-action-btn">
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                            <span class="nav-action-text">Giriş / Hesap Oluştur</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <button class="nav-action-btn">
+                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+                            <span class="nav-action-text">İstek Listesi</span>
+
+                            <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="nav-action-btn">
+                            <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+                            <data class="nav-action-text" value="318.00">Cüzdan: <strong>31₺</strong></data>
+
+                            <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+                        </button>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="section hero" style="background-image: url('./assets/images/hakkımızda banner.png')">
+                <div class="container">
+
+                    <h2 class="h1 hero-title">
+
+                    </h2>
+
+                    <p class="hero-text">
+
+                    </p>
+
+
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section class="section product">
+                <div class="container">
+
+                    <h2 class="h2 section-title">Hakkımızda</h2>
+
+
+                </div>
+            </section>
+
+
+
+            <div class="hakkında">
+                <h2>Vexel Shop: Kalite ve Güvenin Adresi</h2><br>
+                <p>2018 yılından bu yana sektörde aktif olarak yer aldığımızı gururla belirtmek isteriz. Vexel Shop
+                    olarak,
+                    müşterilerimize kaliteli ürünler ve güvenilir hizmet sunma misyonuyla yola çıktık ve bu güne kadar
+                    bu ilkeye
+                    sıkı sıkıya bağlı kaldık.</p>
+                <br>
+                <p>Bizim için en önemli öncelik, müşteri memnuniyetidir. Her müşterimizin beklentilerini aşmak ve onları
+                    mutlu etmek
+                    için sürekli çaba sarf ediyoruz. Müşterilerimizin geri bildirimlerini önemsiyor ve ürün ve
+                    hizmetlerimizi
+                    sürekli iyileştirmek için bu geri bildirimlere dayanıyoruz.</p>
+                <br>
+                <p>Ürünlerimizin uygun fiyatlı olması da bizim için oldukça önemlidir. Kaliteli ürünleri erişilebilir
+                    fiyatlarla
+                    sunarak, müşterilerimizin bütçesine katkı sağlamayı hedefliyoruz. Hem kaliteden ödün vermeden, hem
+                    de uygun
+                    fiyatlarla alışveriş yapma imkanı sunarak, müşterilerimize en iyi değeri sunmayı amaçlıyoruz.</p>
+                <br>
+                <p>Vexel Shop olarak, sektördeki deneyimimiz, müşteri odaklı yaklaşımımız ve uygun fiyatlarımızla her
+                    zaman
+                    müşterilerimizin yanında olmaya devam edeceğiz. Kalite ve güvenin adresi olarak, her zaman en
+                    iyisini sunmak
+                    için çalışmaya devam edeceğiz.</p>
+                <br>
+                <p>Saygılarımla,<br>[Vexel Shop]</p>
+            </div>
+
+
+
+
+
+            <section class="section insta-post">
+
+                <ul class="insta-post-list has-scrollbar">
+
+                    <li style="margin-left: 60px;" class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/tire.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/V.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/E.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/X.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/E.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/L.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="insta-post-item">
+                        <img src="./assets/images/RESİM YAZI/tire.png" width="100" height="100" loading="lazy"
+                            alt="Instagram post" class="insta-post-banner image-contain">
+
+                        <a href="#" class="insta-post-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+
+
+
+                </ul>
+
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+        <div class="footer-top section">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/footer logo.png" width="160" height="50" alt="Footcap logo">
+                    </a>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-link-box">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Bize Ulaşın</p>
+                        </li>
+
+                        <li>
+                            <address class="footer-link">
+                                <ion-icon name="location"></ion-icon>
+
+                                <span class="footer-link-text">
+                                    Levent, Manolyalı Sk. 5-1, 34330 Beşiktaş/İstanbul
+                                </span>
+                            </address>
+                        </li>
+
+
+
+                        <li style="margin-top: 20px;">
+                            <a href="mailto:footcap@help.com" class="footer-link">
+                                <ion-icon name="mail"></ion-icon>
+
+                                <span class="footer-link-text">vexelshop@gmail.com</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Hesap Detayları</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                                <span class="footer-link-text">Hesap Detayları</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                                <span class="footer-link-text">Kartları görüntüle</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                                <span class="footer-link-text">İstek Listesi</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                                <span class="footer-link-text">Karşılaştır</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                                <span class="footer-link-text">Yeni Ürünler</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="footer-list">
+
+                        <p class="footer-list-title">Aktiflik Süreleri</p>
+
+                        <table class="footer-table">
+                            <tbody>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Pazartesi:</th>
+
+                                    <td class="table-data">10:00 - 00:00</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Salı:</th>
+
+                                    <td class="table-data">10:00 - 00:00</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Çarşamba:</th>
+
+                                    <td class="table-data">10:00 - 00:00</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Perşembe:</th>
+
+                                    <td class="table-data">10:00 - 00:00</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Cuma:</th>
+
+                                    <td class="table-data">10:00 - 00:00</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Cumartesi:</th>
+
+                                    <td class="table-data">09:00 - 03:30</td>
+                                </tr>
+
+                                <tr class="table-row">
+                                    <th class="table-head" scope="row">Pazar:</th>
+
+                                    <td class="table-data">09:00 - 03:30</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="footer-list">
+
+                        <p class="footer-list-title">Mail</p>
+
+                        <p class="newsletter-text">
+                            Bize mail yollayarak destek ekibine ulaşabilirsiniz
+                        </p>
+
+                        <form action="" class="newsletter-form">
+                            <input type="email" name="email" required placeholder="Email Adresi"
+                                class="newsletter-input">
+
+                            <button type="submit" class="btn btn-primary">Gönder</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2024 <a href="#" class="copyright-link">vexel shop</a>. Tüm Hakları Saklıdır
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" style="background-color: #5e17e9;" class="go-top-btn" data-go-top>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
